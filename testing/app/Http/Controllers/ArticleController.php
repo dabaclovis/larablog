@@ -14,7 +14,9 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        return view('articles.index',[
+            'articles' => Article::latest()->paginate(5),
+        ]);
     }
 
     /**
@@ -24,7 +26,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        //
+        return view('articles.create');
     }
 
     /**
@@ -46,7 +48,9 @@ class ArticleController extends Controller
      */
     public function show(Article $article)
     {
-        //
+        return view('articles.show',[
+            'article' => $article,
+        ]);
     }
 
     /**
@@ -57,7 +61,9 @@ class ArticleController extends Controller
      */
     public function edit(Article $article)
     {
-        //
+        return view('articles.edit',[
+            'article' => $article,
+        ]);
     }
 
     /**
