@@ -48,6 +48,9 @@
                     <a href="" class="list-group-item list-group-item-action w3-card mb-1">Query build laravel Crud</a>
                     <a href="" class="list-group-item list-group-item-action w3-card mb-1">Make a github repo public</a>
                     <a href="" class="list-group-item list-group-item-action w3-card mb-1">Install Maven on EC2 Instance</a>
+                    <a href="" class="list-group-item list-group-item-action w3-card mb-1">Custom Registration in laravel</a>
+                    <a href="" class="list-group-item list-group-item-action w3-card mb-1">Custom Login in laravel</a>
+                    <a href="" class="list-group-item list-group-item-action w3-card mb-1">Multi Steps form with livewire and laravel</a>
                 </ul>
             </div>
         </div>
